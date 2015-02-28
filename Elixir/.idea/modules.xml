@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Elixir.iml" filepath="$PROJECT_DIR$/Elixir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elixir/elixir.iml" filepath="$PROJECT_DIR$/elixir/elixir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>
+

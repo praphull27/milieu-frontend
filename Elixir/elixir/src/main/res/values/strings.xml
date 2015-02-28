@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">milieu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map_view">MapViewActivity</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_tab_example">TabExample</string>
+    <string name="title_activity_tab_test">TabTest</string>
+</resources>

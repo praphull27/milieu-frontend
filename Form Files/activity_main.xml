@@ -1,0 +1,162 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">-->
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity$PlaceholderFragment"
+        android:orientation="vertical">
+
+            <!--Put form controls here-->
+
+        <!--Meeting Code-->
+        <TextView
+            android:id="@+id/TextViewMeetingCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meetingCodeDisplay"
+            android:layout_marginBottom="15dp"
+            >
+        </TextView>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"/>
+
+        <!--Meeting Name-->
+        <TextView
+            android:id="@+id/TextViewMeetingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meetingNamePrompt"
+            android:paddingTop="15dp"
+            >
+        </TextView>
+
+            <EditText android:id="@+id/meeting_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/meeting_name_message"
+                android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            />
+
+        <!--Picking a category-->
+        <TextView
+            android:id="@+id/TextViewPickCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryPrompt"
+            android:paddingTop="15dp"/>
+
+
+            <Spinner
+                android:id="@+id/SpinnerMeetingCategory"
+                android:layout_height="wrap_content"
+                android:prompt="@string/categoriesPrompt"
+                android:layout_width="fill_parent"
+                android:entries="@array/categories_array"
+                android:paddingBottom="15dp">
+            </Spinner>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000" />
+        <!--Code for timepicker commented-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/pickTime"-->
+            <!--android:onClick="showTimePickerDialog" />-->
+
+        <!--add participants-->
+        <TextView
+            android:id="@+id/TextViewAddParticipants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addParticipantsPrompt"
+            android:paddingTop="15dp"/>
+
+        <EditText android:id="@+id/participantName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameMessage"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailEntry1"
+            android:hint="@string/emailPrompt"/>
+
+        <!--Capturing participant address-->
+
+        <EditText android:id="@+id/participantName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameMessage"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+
+            android:id="@+id/addressEntry1"
+            android:hint="@string/addressPrompt"
+            android:layout_marginBottom="15dp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            />
+
+        <!--Buttons-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submitButtonText"
+                android:paddingTop="15dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resetButtonText"
+                android:onClick="clear"/>
+            </LinearLayout>
+
+        <!--            android:ems="10"-->
+        <!--android:layout_gravity="center_horizontal"-->
+
+
+    </LinearLayout>
+    </ScrollView>
+
+<!--</RelativeLayout>-->

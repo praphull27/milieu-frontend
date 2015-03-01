@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FormsTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="meeting_name_message">Enter Meeting Name</string>
+    <string-array name="categories_array">
+        <item> Restaurants </item>
+        <item> Nightlife </item>
+        <item> Coffee and Tea </item>
+        <item> Bars </item>
+        <item> Food </item>
+        <item> All </item>
+    </string-array>
+    <string name="categoriesPrompt">Enter category</string>
+    <string name="pickTime">Time </string>
+    <string name="meetingNamePrompt">Meeting Name</string>
+    <string name="addParticipantsPrompt">Add Participants</string>
+    <string name="emailPrompt">Enter Email</string>
+    <string name="addressPrompt">Enter Address</string>
+    <!--Will actually be from meetingid-->
+    <string name="meetingCodeDisplay"> Meeting Code 1234 </string>
+    <string name="categoryPrompt">Pick Category</string>
+    <string name="submitButtonText"> Submit </string>
+    <string name="resetButtonText"> Reset </string>
+    <string name="nameMessage"> Enter Name </string>
+</resources>

@@ -45,10 +45,10 @@ public class MeetingListAdapter extends ArrayAdapter<MeetingItem> {
 			holder = (DoctorItemHolder) row.getTag();
 		}
 
-		MeetingItem doctor = doctorsList.get(position);
-		holder.firstLine.setText(doctor.name);
-		holder.secondLine.setText(doctor.location +"\n"+doctor.time);
-		holder.imgIcon.setImageResource(doctor.image);
+		MeetingItem meeting = doctorsList.get(position);
+		holder.firstLine.setText(meeting.name);
+		holder.secondLine.setText(meeting.location +"\n"+meeting.time);
+		holder.imgIcon.setImageResource(meeting.image);
 
 		return row;
 	}

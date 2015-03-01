@@ -10,6 +10,11 @@ android {
         targetSdkVersion 21
     }
 
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -19,8 +24,10 @@ android {
 }
 
 dependencies {
-    compile project(':library')
+    compile 'com.turbomanage.basic-http-client:http-client-android:0.89'
     compile 'com.android.support:support-v4:21.0.2'
     compile 'com.google.android.gms:play-services:+'
     compile 'com.android.support:appcompat-v7:21.0.2'
+    compile project(':library')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }

@@ -7,4 +7,27 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_tab_example">TabExample</string>
     <string name="title_activity_tab_test">TabTest</string>
+    <string name="meeting_name_message">Enter Meeting Name</string>
+    <string-array name="categories_array">
+        <item> RESTAURANT </item>
+        <item> NIGHTLIFE </item>
+        <item> FOOD </item>
+        <item> HOTEL_TRAVEL </item>
+        <item> BARS </item>
+        <item> COFFEE_TEA </item>
+        <item> ARTS_ENTERTAINMENT </item>
+        <item> ALL </item>
+    </string-array>
+    <string name="categoriesPrompt">Enter category</string>
+    <string name="pickTime">Time </string>
+    <string name="meetingNamePrompt">Meeting Name</string>
+    <string name="addParticipantsPrompt">Add Participants</string>
+    <string name="emailPrompt">Enter Phone Number</string>
+    <string name="addressPrompt">Enter Address</string>
+    <!--Will actually be from meetingid-->
+    <string name="meetingCodeDisplay"> Meeting Code 1234 </string>
+    <string name="categoryPrompt">Pick Category</string>
+    <string name="submitButtonText"> Submit </string>
+    <string name="resetButtonText"> Reset </string>
+    <string name="nameMessage"> Enter Name </string>
 </resources>
